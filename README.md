@@ -43,13 +43,7 @@ If no matching results are found, a "No users found" message is displayed.
 Error Handling
 If the API request fails, an error message will be displayed.
 If the app is loading, a loading message will be shown.
-File Structure
-```bash
-/src
-  |-- App.js            # Main app component
-  |-- App.css           # Styling for the app
-  |-- index.js          # Entry point for the app
-```
+
 Contribution Guidelines
 Feel free to fork this repository and submit pull requests. If you find any bugs or have suggestions for improvements, open an issue or contribute directly!
 
