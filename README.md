@@ -20,3 +20,38 @@ To run the app locally:
 1. Clone the repository:
    ```bash
    git clone https://github.com/rahulsharma998/brain-cell.git
+Navigate to the project directory:
+
+```bash
+cd users-list-app
+```
+Install dependencies:
+
+```bash
+npm install
+```
+Start the development server:
+
+```bash
+npm start
+```
+How It Works
+On initial load, the app fetches a list of users from the API.
+The data is stored in a state (users), and the app shows a loading message until the data is successfully fetched.
+A search bar allows users to filter the displayed list by name.
+If no matching results are found, a "No users found" message is displayed.
+Error Handling
+If the API request fails, an error message will be displayed.
+If the app is loading, a loading message will be shown.
+File Structure
+```bash
+/src
+  |-- App.js            # Main app component
+  |-- App.css           # Styling for the app
+  |-- index.js          # Entry point for the app
+```
+Contribution Guidelines
+Feel free to fork this repository and submit pull requests. If you find any bugs or have suggestions for improvements, open an issue or contribute directly!
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
