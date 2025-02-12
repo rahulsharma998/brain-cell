@@ -37,17 +37,44 @@ Start the development server:
 ```bash
 npm start
 ```
-How It Works
-On initial load, the app fetches a list of users from the API.
-The data is stored in a state (users), and the app shows a loading message until the data is successfully fetched.
-A search bar allows users to filter the displayed list by name.
-If no matching results are found, a "No users found" message is displayed.
-Error Handling
-If the API request fails, an error message will be displayed.
-If the app is loading, a loading message will be shown.
+# How It Works
+1. **Initial Load**:  
+   When the app first loads, it makes an API call to fetch a list of users from [JSONPlaceholder](https://jsonplaceholder.typicode.com/users).
+   
+2. **Data Handling**:  
+   The retrieved data is stored in the `users` state, and a loading message is shown until the data is successfully fetched.
 
-Contribution Guidelines
-Feel free to fork this repository and submit pull requests. If you find any bugs or have suggestions for improvements, open an issue or contribute directly!
+3. **Search and Filter**:  
+   A search bar allows users to filter the displayed list of users by their name. As users type, the displayed results update in real-time to match the search query.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+# Error Handling
+1. **API Request Failure**:  
+   If the API request fails (due to network issues or server errors), an error message will be displayed with the error details.
+
+2. **Loading State**:  
+   While the data is being fetched, a loading message is displayed to inform users that the app is fetching the user data.
+
+---
+
+# Contribution Guidelines
+We welcome contributions to improve this project! Here's how you can help:
+
+1. **Fork**:  
+   Feel free to fork this repository and make your changes.
+
+2. **Submit a Pull Request**:  
+   After making improvements, submit a pull request (PR) with a description of the changes you've made. We encourage you to provide as much detail as possible.
+
+3. **Reporting Issues**:  
+   If you find any bugs or encounter issues, please open an issue in the issue tracker with relevant details to help us investigate.
+
+4. **Suggestions and Features**:  
+   If you have any suggestions for new features or improvements, feel free to submit an issue or contribute directly by creating a pull request.
+
+---
+
+# License
+This project is licensed under the **MIT License**. For more details, check the `LICENSE` file.
