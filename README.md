@@ -13,6 +13,8 @@ This is a simple React app that fetches a list of users from the [JSONPlaceholde
 - **React**: JavaScript library for building user interfaces.
 - **CSS**: Styling the app with a separate stylesheet (`App.css`).
 
+## Deployed Link:-https://brain-cell-ruddy.vercel.app/
+
 ## Installation
 
 To run the app locally:
